@@ -86,13 +86,13 @@ const Home: NextPage = () => {
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2">Early Bird</h3>
                 <p className="text-gray-600 mb-4">through July 31, 2025</p>
-                <p className="text-4xl font-bold text-primary">$85</p>
+                <p className="text-4xl font-bold text-primary">$89</p>
               </div>
               
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2">Regular</h3>
                 <p className="text-gray-600 mb-4">starting August 1, 2025</p>
-                <p className="text-4xl font-bold text-primary">$125</p>
+                <p className="text-4xl font-bold text-primary">$119</p>
               </div>
             </div>
             <div className="mt-6">
