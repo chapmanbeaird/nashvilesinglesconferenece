@@ -58,6 +58,19 @@ const Home: NextPage = () => {
           <div className="mt-8">
             <RegisterButton url={registrationLink} />
           </div>
+          
+          {/* QR Code for Easy Registration */}
+          <div className="mt-8 flex flex-col items-center">
+            <p className="text-sm text-gray-600 mb-3">Or scan this QR code to register:</p>
+            <div className="relative w-96 h-96 rounded-lg overflow-hidden shadow-md">
+              <Image 
+                src="/images/IMG_6450.jpg" 
+                alt="QR Code for Eventbrite Registration"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
         </div>
       </Section>
       
