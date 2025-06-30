@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 
 const Home: NextPage = () => {
   // Replace this with your actual Eventbrite registration link
-  const registrationLink = "https://www.eventbrite.com/e/nashville-singles-conference-2025-tickets-placeholder";
+  const registrationLink = "https://www.eventbrite.com/e/nashville-single-adult-conference-tickets-1393145017249?utm_experiment=test_share_listing&aff=ebdsshios";
 
   return (
     <div>

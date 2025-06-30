@@ -28,11 +28,11 @@ const Header: React.FC = () => {
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide">Nashville Singles Conference 2025</h1>
               <p className="text-base md:text-lg mt-1">August 29–31, 2025 | Franklin, TN</p>
               
-              {/* Fun crooked badge */}
-              <div className="absolute -top-1 md:top-0 right-4 md:right-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                <div className="bg-white text-blue-800 px-3 py-1 rounded-lg shadow-md">
-                  <p className="font-bold text-sm md:text-base">For Single Adults Ages 36+</p>
-                </div>
+              {/* Elegant age group indicator */}
+              <div className="mt-2">
+                <span className="inline-block bg-white bg-opacity-90 text-blue-800 px-4 py-2 rounded-full text-sm md:text-base font-semibold shadow-sm border border-blue-200">
+                  For Single Adults Ages 36+
+                </span>
               </div>
             </div>
           </div>
