@@ -81,16 +81,15 @@ const Home: NextPage = () => {
         subtitle="Secure your spot for this unforgettable weekend"
       >
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-50 p-8 rounded-lg shadow-md text-center mb-12">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg text-center mb-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-2">Early Bird</h3>
+                <h3 className="text-2xl font-bold mb-2 text-primary">Early Bird</h3>
                 <p className="text-gray-600 mb-4">through July 31, 2025</p>
                 <p className="text-4xl font-bold text-primary">$89</p>
               </div>
-              
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-2">Regular</h3>
+                <h3 className="text-2xl font-bold mb-2 text-primary">Regular</h3>
                 <p className="text-gray-600 mb-4">starting August 1, 2025</p>
                 <p className="text-4xl font-bold text-primary">$119</p>
               </div>
@@ -130,8 +129,8 @@ const Home: NextPage = () => {
             </ul>
           </div>
           
-          <div className="mt-20 text-center py-10 bg-gray-50 rounded-lg shadow-md">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">All events will be held at:</h2>
+          <div className="mt-20 text-center py-10 bg-blue-100 rounded-2xl shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">All events will be held at:</h2>
             <p className="text-2xl font-semibold mb-2">The Franklin Stake Center</p>
             <p className="text-xl">1100 Grey Fox Lane, Franklin, TN 37064</p>
           </div>
@@ -162,42 +161,217 @@ const Home: NextPage = () => {
         
         {/* Other Highlights */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Uplifting Keynotes & Workshops</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Uplifting Keynotes & Workshops</h3>
             <p>
               Dive into workshops on healing after divorce, strengthening self-worth, financial preparedness, and deepening your understanding of temple covenants. Choose from engaging classes taught by inspiring speakers and knowlegable instructors.
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Unforgettable Musical Experiences</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Unforgettable Musical Experiences</h3>
             <p>
               Enjoy live performances from Nashville hit songwriters, a professional honky-tonk band, and a musical fireside to close the weekend. Attend a class on hymns and music, a song writing workshop—or simply soak in the power of music to lift the soul.
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Dances, Fun & Entertainment</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Dances, Fun & Entertainment</h3>
             <p>
               Kick up your boots at our country-themed dance night with live music and line dancing, and join us for a totally rad '80s dance party. You'll also find plenty of opportunities to mingle, play games, and make new friends.
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Spiritual Nourishment</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Spiritual Nourishment</h3>
             <p>
               Take part in a special Single Adult Sacrament Meeting and uplifting classes focused on personal revelation, family history, gospel art, and Christ-centered living.
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Service & Connection</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Service & Connection</h3>
             <p>
               Engage in meaningful service projects and connect with other single adults from all over the region in a supportive, faith-filled environment.
             </p>
           </div>
         </div>
       </Section>
+
+      {/* Conference Schedule Section */}
+      <section id="conference-schedule" className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-primary">Conference Schedule</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Friday */}
+            <div className="bg-blue-100 rounded-2xl shadow-lg flex flex-col p-8">
+              <div className="bg-white rounded-t-2xl px-4 py-3 text-center font-bold text-xl text-primary border-b border-blue-200 mb-4">Friday, August 29</div>
+              <ul className="divide-y divide-gray-200">
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">4:00-6:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Registration/Photo Bus/Welcome!</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">6:00-7:15 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Dinner</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">7:30-9:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Bluebird Café Style: Songwriters in the Round</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">9:30-10:30 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Line Dancing Instruction during dance</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">9:30-11:30 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">“Jack Settle Band” Honky Tonk Band & Refreshments</span>
+                </li>
+              </ul>
+            </div>
+            {/* Saturday */}
+            <div className="bg-blue-100 rounded-2xl shadow-lg flex flex-col p-8">
+              <div className="bg-white rounded-t-2xl px-4 py-3 text-center font-bold text-xl text-primary border-b border-blue-200 mb-4">Saturday, August 30</div>
+              <ul className="divide-y divide-gray-200">
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">7:00-7:45 AM</span>
+                  <span className="ml-2 text-base font-medium text-black">Yoga and Stretching</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">8:00-8:45 AM</span>
+                  <span className="ml-2 text-base font-medium text-black">Breakfast</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">9:00-9:50 AM</span>
+                  <span className="ml-2 text-base font-medium text-black">Morning Keynote</span>
+                </li>
+                <li className="py-2">
+                  <span className="font-semibold text-black">Choose three:</span>
+                  <ul className="list-disc pl-6 text-sm text-black mb-2 mt-1">
+                    <li>Hope, Healing, and Happiness in Divorce</li>
+                    <li>The Art of Songwriting</li>
+                    <li>Self-Esteem: Recognizing Your Divine Worth</li>
+                    <li>Finding Peace through Financial Preparedness</li>
+                    <li>Temple Covenants and Blessings</li>
+                  </ul>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">10:00-10:50 AM</span>
+                  <span className="ml-2 text-base font-medium text-black">Workshop 1</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">11:00-11:50 AM</span>
+                  <span className="ml-2 text-base font-medium text-black">Workshop 2</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">12:00-12:50 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Workshop 3</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">1:00-2:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Lunch</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">2:00-3:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Service Projects</span>
+                </li>
+                <li className="flex flex-col py-2">
+                  <span className="w-24 text-sm text-gray-600 font-medium flex-shrink-0">3:00-6:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Free Time Options:</span>
+                  <ul className="list-disc pl-6 text-sm text-black mb-2 mt-1">
+                    <li>Temple Session @ 3:00</li>
+                    <li>Minute to Win It Games</li>
+                    <li>Mahjong & Game Rooms</li>
+                    <li>Pickleball</li>
+                    <li>Local Attractions:
+                      <ul className="list-disc pl-6">
+                        <li>The Parthenon</li>
+                        <li>Country Music Hall of Fame</li>
+                        <li>Historic Downtown Franklin</li>
+                        <li>Cheekwood Gardens</li>
+                        <li>Belle Meade Plantation</li>
+                        <li>Franklin Rec Center</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">6:30-8:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Dinner</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24"></span>
+                  <span className="ml-2 text-base font-medium text-black">BYU Football watch party</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24"></span>
+                  <span className="ml-2 text-base font-medium text-black">Game Room</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24"></span>
+                  <span className="ml-2 text-base font-medium text-black">Speed Friendship</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">8:30-11:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">80’s Glow Party and Dance with DJ</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24"></span>
+                  <span className="ml-2 text-base font-medium text-black">Photo Backdrop & Refreshments</span>
+                </li>
+              </ul>
+            </div>
+            {/* Sunday */}
+            <div className="bg-blue-100 rounded-2xl shadow-lg flex flex-col p-8">
+              <div className="bg-white rounded-t-2xl px-4 py-3 text-center font-bold text-xl text-primary border-b border-blue-200 mb-4">Sunday, August 31</div>
+              <ul className="divide-y divide-gray-200">
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">12:00-1:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Lunch</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">1:15-2:15 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Sacrament Meeting</span>
+                </li>
+                <li className="py-2">
+                  <span className="font-semibold text-black">Choose three:</span>
+                  <ul className="list-disc pl-6 text-sm text-black mb-2 mt-1">
+                    <li>Sing with Joy: The Power of Hymns in Worship</li>
+                    <li>Painting with the Spirit: Expressing Faith Through Watercolor</li>
+                    <li>Unlocking the Scriptures</li>
+                    <li>Discovering Your Heritage: A Journey into Family History</li>
+                    <li>Reflections of Christ, Bringing Art of the Savior to Life</li>
+                  </ul>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">2:30-3:20 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Class 1</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">3:30-4:20 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Class 2</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">4:30-5:20 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Class 3</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">5:30-6:45 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Dinner</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">7:00-8:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Fireside</span>
+                </li>
+                <li className="flex items-start py-2">
+                  <span className="w-24 text-sm text-gray-600 flex-shrink-0">8:00-9:00 PM</span>
+                  <span className="ml-2 text-base font-medium text-black">Dessert & Mingle</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Accommodations Section */}
       <Section 
@@ -206,8 +380,8 @@ const Home: NextPage = () => {
         subtitle="Franklin offers plenty of comfortable accommodations close to the venue"
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold mb-4">The Harpeth Hotel</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">The Harpeth Hotel</h3>
             <p className="mb-4">Luxury boutique hotel in downtown Franklin</p>
             <a 
               href="https://www.hilton.com/en/hotels/bnasqqq-the-harpeth-franklin-downtown/" 
@@ -221,9 +395,8 @@ const Home: NextPage = () => {
               </svg>
             </a>
           </div>
-          
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold mb-4">Holiday Inn Express & Suites - Berry Farms</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Holiday Inn Express & Suites - Berry Farms</h3>
             <p className="mb-4">Convenient and modern with complimentary breakfast</p>
             <a 
               href="https://www.ihg.com/holidayinnexpress/hotels/us/en/franklin/bnafa/hoteldetail" 
@@ -237,12 +410,59 @@ const Home: NextPage = () => {
               </svg>
             </a>
           </div>
-          
-          <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold mb-4">Franklin Marriott Cool Springs</h3>
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Franklin Marriott Cool Springs</h3>
             <p className="mb-4">Well-appointed with easy access to shopping and dining</p>
             <a 
               href="https://www.marriott.com/en-us/hotels/bnacs-franklin-marriott-cool-springs/overview/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center text-primary hover:text-blue-700 font-medium"
+            >
+              <span>Visit Website</span>
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+          {/* New Hotel: Baymont by Wyndham */}
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Baymont by Wyndham</h3>
+            <p className="mb-4">Affordable comfort with Wyndham Rewards benefits</p>
+            <a 
+              href="https://www.wyndhamhotels.com/hotels/franklin-tennessee?brand_id=BU" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center text-primary hover:text-blue-700 font-medium"
+            >
+              <span>Visit Website</span>
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+          {/* New Hotel: Comfort Inn Franklin */}
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Comfort Inn Franklin</h3>
+            <p className="mb-4">Modern comfort and amenities in Franklin</p>
+            <a 
+              href="https://www.choicehotels.com/tennessee/franklin/comfort-inn-hotels/tn695?mc=llgoxxpx" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center text-primary hover:text-blue-700 font-medium"
+            >
+              <span>Visit Website</span>
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+          {/* New Hotel: Best Western Franklin Inn */}
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-primary">Best Western Franklin Inn</h3>
+            <p className="mb-4">Classic value and comfort in Franklin</p>
+            <a 
+              href="https://www.bestwestern.com/en_US/book/hotel-rooms.43070.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:43070" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center text-primary hover:text-blue-700 font-medium"
@@ -264,7 +484,7 @@ const Home: NextPage = () => {
         bgColor="bg-gray-50"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/2018-franklin-tennessee.jpg" 
@@ -273,10 +493,10 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">Historic Downtown Franklin</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">Historic Downtown Franklin</h3>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/Factory-at-Franklin-rennovation-rendering-1.jpg" 
@@ -285,11 +505,11 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">The Factory at Franklin</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">The Factory at Franklin</h3>
             <p className="text-sm text-gray-600">Shops & eateries</p>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/leipersfork.jpeg" 
@@ -298,10 +518,10 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">Leiper's Fork village</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">Leiper's Fork village</h3>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/cheekwood.jpg" 
@@ -310,10 +530,10 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">Cheekwood Gardens</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">Cheekwood Gardens</h3>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/countrymusichof.jpeg" 
@@ -322,10 +542,10 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">Country Music Hall of Fame</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">Country Music Hall of Fame</h3>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/parthenon.webp" 
@@ -334,10 +554,10 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">The Parthenon replica in Nashville</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">The Parthenon replica in Nashville</h3>
           </div>
           
-          <div className="bg-white p-5 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-blue-100 p-8 rounded-2xl shadow-lg overflow-hidden">
             <div className="relative h-64 mb-4 rounded overflow-hidden">
               <Image 
                 src="/images/nashville-tennessee-temple-5824.jpg" 
@@ -346,7 +566,7 @@ const Home: NextPage = () => {
                 style={{ objectFit: 'cover' }}
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">Temple session opportunities at the Nashville Temple</h3>
+            <h3 className="text-xl font-bold mb-2 text-primary">Temple session opportunities at the Nashville Temple</h3>
           </div>
         </div>
       </Section>
